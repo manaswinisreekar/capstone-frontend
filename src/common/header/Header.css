@@ -1,0 +1,53 @@
+.app-header {
+    background-color:darkslategray;
+    height: 36px;
+    padding: 8px 32px 8px 16px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.login-button {
+    float: right;
+} 
+
+.fastFoodIcon, .searchIcon{
+    color: white;
+}
+.MuiInput-underline:before {
+    border-bottom: 1px solid black;
+}
+
+.MuiInput-underline:hover:not(.Mui-disabled):before{
+    border-bottom: 1px solid white;
+}
+
+.searchInput {
+    color: white !important;
+}
+.MuiInput-root {
+    width: -webkit-fill-available;
+}
+.tabs {
+    margin-bottom: 20px;
+} 
+
+.dispNone {
+    display: none;
+}
+
+.dispBlock {
+    display: block;
+}
+
+.red {
+    color: red;
+}
+@media only screen and (max-width: 420px){
+    .app-header {
+        height: 110px;
+        grid-template-columns: auto;
+    }
+    .login-button {
+        float: left;
+    } 
+}
